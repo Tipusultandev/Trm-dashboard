@@ -1,0 +1,113 @@
+// @use "../util/" as u;
+// .wbr-speakers {
+//   background-color: var(--text-color-hero-heading);
+//   padding: 110px 0;
+
+//   &__heading-text {
+//     text-align: center;
+//     padding-bottom: 60px;
+//   }
+
+//   &__cards-wrapper {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     gap: 50px;
+//   }
+
+//   &__card {
+//     text-align: center;
+//     position: relative;
+
+//     figure {
+//       margin: 0;
+//       img {
+//         width: 100%;
+//         display: block;
+//         border-radius: 10px;
+//       }
+
+//       figcaption {
+//         font-family: u.$font-jura;
+//         font-style: normal;
+//         font-weight: 700;
+//         font-size: 30px;
+//         line-height: 62px;
+//         text-align: center;
+//         letter-spacing: -0.04em;
+//         color: var(--heading-color);
+//         margin-top: 5px;
+//       }
+//     }
+//   }
+//   &__card-designation {
+//     font-family: u.$font-manrope;
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 18px;
+//     line-height: 1;
+//     text-align: center;
+//     text-transform: capitalize;
+//     color: rgba(0, 0, 0, 0.5);
+//   }
+// }
+
+// .wbr-speakers__card .wbr-speakers__overlay {
+//   background: rgba(236, 166, 31, 0.75);
+//   position: absolute;
+//   height: 84%;
+//   width: 100%;
+//   inset: 0px;
+//   border-radius: 10px;
+//   transform: rotate(-2deg);
+//   opacity: 0;
+//   -webkit-transition: all 0.4s ease-in-out 0s;
+//   -moz-transition: all 0.4s ease-in-out 0s;
+//   transition: all 0.4s ease-in-out 0s;
+// }
+
+// .wbr-speakers__card:hover .wbr-speakers__overlay {
+//   opacity: 1;
+// }
+
+// .content-details {
+//   position: absolute;
+//   text-align: center;
+//   padding-left: 1em;
+//   padding-right: 1em;
+//   width: 100%;
+//   top: 80%;
+//   left: 50%;
+//   opacity: 0;
+//   -webkit-transform: translate(-50%, -50%);
+//   -moz-transform: translate(-50%, -50%);
+//   transform: translate(-50%, -50%);
+//   -webkit-transition: all 0.3s ease-in-out 0s;
+//   -moz-transition: all 0.3s ease-in-out 0s;
+//   transition: all 0.3s ease-in-out 0s;
+// }
+
+// .wbr-speakers__card:hover .content-details {
+//   top: 50%;
+//   left: 50%;
+//   opacity: 1;
+// }
+
+// .content-details h3 {
+//   font-family: u.$font-jura;
+//   font-style: normal;
+//   font-weight: 600;
+//   font-size: 20px;
+//   line-height: 1.1;
+//   text-align: center;
+//   text-transform: uppercase;
+//   color: #000000;
+// }
+
+// .content-details p {
+//   font-family: u.$font-manrope;
+//   font-style: normal;
+//   font-weight: 800;
+//   font-size: 20px;
+//   line-height: 30px;
+//   color: #ffffff;
+// }

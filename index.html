@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tipusdev@gmail.com" />
+    <title>Trm dashboard Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="trm">
+      <section class="trm-search">
+        <div class="trm-search__input">
+          <form class="search-box">
+            <div class="pseudo-search">
+              <input
+                type="text"
+                placeholder="Search All Assets"
+                autofocus
+                required
+              />
+              <i class="fa fa-globe places"></i>
+              <button class="fa fa-search" type="submit"></button>
+            </div>
+          </form>
+        </div>
+        <div class="trm-search__content">
+          <p>Upgrade to Pro</p>
+          <figure>
+            <img src="" alt="" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="trm-dashboard">
+        <header>
+          <h1 class="trm-dashboard__heading">Dashboard</h1>
+          <select
+            class="trm-dashboard__select custom-select sources"
+            placeholder="Month"
+          >
+            <option value="">Month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+        </header>
+
+        <div class="trm-dashboard__card-area">
+          <article class="trm-dashboard__card">
+            <div class="trm-dashboard__heading-area">
+              <figure class="trm-dashboard__heading__img">
+                <img src="/images/one.png" alt="one" />
+              </figure>
+              <p class="trm-dashboard__heading__subheading">Total Campaign</p>
+            </div>
+            <!-- .trm-dashboard__heading-area end -->
+
+            <div class="trm-dashboard__count-area">
+              <h2 class="trm-dashboard__count__increment">580</h2>
+              <span class="trm-dashboard__count__percentice">
+                <svg
+                  width="8"
+                  height="8"
+                  viewBox="0 0 8 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.13971 0.791669C3.13971 0.95267 3.27037 1.08334 3.43137 1.08334L6.50424 1.08334L0.585422 7.00216C0.471526 7.11606 0.471526 7.30068 0.585422 7.41458C0.699319 7.52847 0.883945 7.52847 0.997841 7.41458L6.91666 1.49576L6.91666 4.56863C6.91666 4.72963 7.04733 4.86029 7.20833 4.86029C7.36933 4.86029 7.5 4.72963 7.5 4.56863L7.5 1.08334C7.5 0.761627 7.23837 0.500001 6.91666 0.500001L3.43137 0.500001C3.27023 0.500001 3.13971 0.630668 3.13971 0.791669Z"
+                    fill="#12B76A"
+                    stroke="#12B76A"
+                    stroke-width="0.6048"
+                  /></svg
+                ><b>+0.47</b>
+              </span>
+            </div>
+            <!-- .trm-dashboard__count-area end -->
+
+            <div class="trm-dashboard__link-area">
+              <a href="#" class="trm-dashboard__link"
+                >Add Contact
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.24941 10.4553C5.34811 10.4559 5.44596 10.437 5.53734 10.3997C5.62871 10.3623 5.71183 10.3074 5.78191 10.2378L10.2819 5.73784C10.4216 5.59732 10.5 5.40723 10.5 5.20909C10.5 5.01095 10.4216 4.82087 10.2819 4.68034L5.78191 0.180343C5.63843 0.057473 5.45387 -0.00673153 5.26512 0.000559336C5.07636 0.0078502 4.8973 0.0860992 4.76373 0.21967C4.63016 0.353241 4.55191 0.532296 4.54462 0.721053C4.53733 0.90981 4.60154 1.09437 4.72441 1.23784L8.69191 5.20534L4.72441 9.17284C4.61909 9.2773 4.54711 9.41063 4.51757 9.55599C4.48803 9.70135 4.50226 9.85221 4.55845 9.98948C4.61465 10.1268 4.71029 10.2443 4.83327 10.3272C4.95626 10.4101 5.10108 10.4547 5.24941 10.4553Z"
+                    fill="#A7A8B3"
+                  />
+                  <path
+                    d="M0.749406 10.4553C0.848111 10.4559 0.945958 10.437 1.03734 10.3997C1.12871 10.3623 1.21183 10.3074 1.28191 10.2378L5.78191 5.73784C5.92159 5.59732 6 5.40723 6 5.20909C6 5.01095 5.92159 4.82086 5.78191 4.68034L1.28191 0.180343C1.13843 0.057473 0.953873 -0.00673153 0.765116 0.000559336C0.576359 0.0078502 0.397304 0.0860992 0.263733 0.21967C0.130162 0.353241 0.0519133 0.532296 0.0446224 0.721053C0.0373316 0.90981 0.101536 1.09437 0.224405 1.23784L4.19191 5.20534L0.224405 9.17284C0.119089 9.2773 0.0471103 9.41063 0.0175714 9.55599C-0.0119674 9.70135 0.00226032 9.85221 0.0584545 9.98948C0.114649 10.1268 0.210286 10.2443 0.333274 10.3272C0.456262 10.4101 0.601076 10.4547 0.749406 10.4553Z"
+                    fill="#A7A8B3"
+                  />
+                </svg>
+              </a>
+            </div>
+            <!-- .trm-dashboard__link-area end -->
+          </article>
+          <!-- .trm-dashboard__card end -->
+
+          <article class="trm-dashboard__card">
+            <div class="trm-dashboard__heading-area">
+              <figure class="trm-dashboard__heading__img">
+                <img src="/images/two.png" alt="two" />
+              </figure>
+              <p class="trm-dashboard__heading__subheading">Campaign</p>
+            </div>
+            <!-- .trm-dashboard__heading-area end -->
+
+            <div class="trm-dashboard__count-area">
+              <h2 class="trm-dashboard__count__increment">580</h2>
+              <span class="trm-dashboard__count__percentice">
+                <svg
+                  width="8"
+                  height="8"
+                  viewBox="0 0 8 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.13971 0.791669C3.13971 0.95267 3.27037 1.08334 3.43137 1.08334L6.50424 1.08334L0.585422 7.00216C0.471526 7.11606 0.471526 7.30068 0.585422 7.41458C0.699319 7.52847 0.883945 7.52847 0.997841 7.41458L6.91666 1.49576L6.91666 4.56863C6.91666 4.72963 7.04733 4.86029 7.20833 4.86029C7.36933 4.86029 7.5 4.72963 7.5 4.56863L7.5 1.08334C7.5 0.761627 7.23837 0.500001 6.91666 0.500001L3.43137 0.500001C3.27023 0.500001 3.13971 0.630668 3.13971 0.791669Z"
+                    fill="#12B76A"
+                    stroke="#12B76A"
+                    stroke-width="0.6048"
+                  /></svg
+                ><b>+0.47</b>
+              </span>
+            </div>
+            <!-- .trm-dashboard__count-area end -->
+
+            <div class="trm-dashboard__link-area">
+              <a href="#" class="trm-dashboard__link"
+                >Add Contact
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.24941 10.4553C5.34811 10.4559 5.44596 10.437 5.53734 10.3997C5.62871 10.3623 5.71183 10.3074 5.78191 10.2378L10.2819 5.73784C10.4216 5.59732 10.5 5.40723 10.5 5.20909C10.5 5.01095 10.4216 4.82087 10.2819 4.68034L5.78191 0.180343C5.63843 0.057473 5.45387 -0.00673153 5.26512 0.000559336C5.07636 0.0078502 4.8973 0.0860992 4.76373 0.21967C4.63016 0.353241 4.55191 0.532296 4.54462 0.721053C4.53733 0.90981 4.60154 1.09437 4.72441 1.23784L8.69191 5.20534L4.72441 9.17284C4.61909 9.2773 4.54711 9.41063 4.51757 9.55599C4.48803 9.70135 4.50226 9.85221 4.55845 9.98948C4.61465 10.1268 4.71029 10.2443 4.83327 10.3272C4.95626 10.4101 5.10108 10.4547 5.24941 10.4553Z"
+                    fill="#A7A8B3"
+                  />
+                  <path
+                    d="M0.749406 10.4553C0.848111 10.4559 0.945958 10.437 1.03734 10.3997C1.12871 10.3623 1.21183 10.3074 1.28191 10.2378L5.78191 5.73784C5.92159 5.59732 6 5.40723 6 5.20909C6 5.01095 5.92159 4.82086 5.78191 4.68034L1.28191 0.180343C1.13843 0.057473 0.953873 -0.00673153 0.765116 0.000559336C0.576359 0.0078502 0.397304 0.0860992 0.263733 0.21967C0.130162 0.353241 0.0519133 0.532296 0.0446224 0.721053C0.0373316 0.90981 0.101536 1.09437 0.224405 1.23784L4.19191 5.20534L0.224405 9.17284C0.119089 9.2773 0.0471103 9.41063 0.0175714 9.55599C-0.0119674 9.70135 0.00226032 9.85221 0.0584545 9.98948C0.114649 10.1268 0.210286 10.2443 0.333274 10.3272C0.456262 10.4101 0.601076 10.4547 0.749406 10.4553Z"
+                    fill="#A7A8B3"
+                  />
+                </svg>
+              </a>
+            </div>
+            <!-- .trm-dashboard__link-area end -->
+          </article>
+          <!-- .trm-dashboard__card end -->
+
+          <article class="trm-dashboard__card">
+            <div class="trm-dashboard__heading-area">
+              <figure class="trm-dashboard__heading__img">
+                <img src="/images/three.png" alt="three" />
+              </figure>
+              <p class="trm-dashboard__heading__subheading">Total Automation</p>
+            </div>
+            <!-- .trm-dashboard__heading-area end -->
+
+            <div class="trm-dashboard__count-area">
+              <h2 class="trm-dashboard__count__increment">580</h2>
+              <span class="trm-dashboard__count__percentice">
+                <svg
+                  width="8"
+                  height="8"
+                  viewBox="0 0 8 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.13971 0.791669C3.13971 0.95267 3.27037 1.08334 3.43137 1.08334L6.50424 1.08334L0.585422 7.00216C0.471526 7.11606 0.471526 7.30068 0.585422 7.41458C0.699319 7.52847 0.883945 7.52847 0.997841 7.41458L6.91666 1.49576L6.91666 4.56863C6.91666 4.72963 7.04733 4.86029 7.20833 4.86029C7.36933 4.86029 7.5 4.72963 7.5 4.56863L7.5 1.08334C7.5 0.761627 7.23837 0.500001 6.91666 0.500001L3.43137 0.500001C3.27023 0.500001 3.13971 0.630668 3.13971 0.791669Z"
+                    fill="#12B76A"
+                    stroke="#12B76A"
+                    stroke-width="0.6048"
+                  /></svg
+                ><b>+0.47</b>
+              </span>
+            </div>
+            <!-- .trm-dashboard__count-area end -->
+            <div class="trm-dashboard__link-area">
+              <a href="#" class="trm-dashboard__link"
+                >Add Contact
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.24941 10.4553C5.34811 10.4559 5.44596 10.437 5.53734 10.3997C5.62871 10.3623 5.71183 10.3074 5.78191 10.2378L10.2819 5.73784C10.4216 5.59732 10.5 5.40723 10.5 5.20909C10.5 5.01095 10.4216 4.82087 10.2819 4.68034L5.78191 0.180343C5.63843 0.057473 5.45387 -0.00673153 5.26512 0.000559336C5.07636 0.0078502 4.8973 0.0860992 4.76373 0.21967C4.63016 0.353241 4.55191 0.532296 4.54462 0.721053C4.53733 0.90981 4.60154 1.09437 4.72441 1.23784L8.69191 5.20534L4.72441 9.17284C4.61909 9.2773 4.54711 9.41063 4.51757 9.55599C4.48803 9.70135 4.50226 9.85221 4.55845 9.98948C4.61465 10.1268 4.71029 10.2443 4.83327 10.3272C4.95626 10.4101 5.10108 10.4547 5.24941 10.4553Z"
+                    fill="#A7A8B3"
+                  />
+                  <path
+                    d="M0.749406 10.4553C0.848111 10.4559 0.945958 10.437 1.03734 10.3997C1.12871 10.3623 1.21183 10.3074 1.28191 10.2378L5.78191 5.73784C5.92159 5.59732 6 5.40723 6 5.20909C6 5.01095 5.92159 4.82086 5.78191 4.68034L1.28191 0.180343C1.13843 0.057473 0.953873 -0.00673153 0.765116 0.000559336C0.576359 0.0078502 0.397304 0.0860992 0.263733 0.21967C0.130162 0.353241 0.0519133 0.532296 0.0446224 0.721053C0.0373316 0.90981 0.101536 1.09437 0.224405 1.23784L4.19191 5.20534L0.224405 9.17284C0.119089 9.2773 0.0471103 9.41063 0.0175714 9.55599C-0.0119674 9.70135 0.00226032 9.85221 0.0584545 9.98948C0.114649 10.1268 0.210286 10.2443 0.333274 10.3272C0.456262 10.4101 0.601076 10.4547 0.749406 10.4553Z"
+                    fill="#A7A8B3"
+                  />
+                </svg>
+              </a>
+            </div>
+            <!-- .trm-dashboard__link-area end -->
+          </article>
+          <!-- .trm-dashboard__card end -->
+
+          <article class="trm-dashboard__card">
+            <div class="trm-dashboard__heading-area">
+              <figure class="trm-dashboard__heading__img">
+                <img src="/images/four.png" alt="four" />
+              </figure>
+              <p class="trm-dashboard__heading__subheading">Form</p>
+            </div>
+            <!-- .trm-dashboard__heading-area end -->
+            <div class="trm-dashboard__count-area">
+              <h2 class="trm-dashboard__count__increment">580</h2>
+              <span class="trm-dashboard__count__percentice">
+                <svg
+                  width="8"
+                  height="8"
+                  viewBox="0 0 8 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.13971 0.791669C3.13971 0.95267 3.27037 1.08334 3.43137 1.08334L6.50424 1.08334L0.585422 7.00216C0.471526 7.11606 0.471526 7.30068 0.585422 7.41458C0.699319 7.52847 0.883945 7.52847 0.997841 7.41458L6.91666 1.49576L6.91666 4.56863C6.91666 4.72963 7.04733 4.86029 7.20833 4.86029C7.36933 4.86029 7.5 4.72963 7.5 4.56863L7.5 1.08334C7.5 0.761627 7.23837 0.500001 6.91666 0.500001L3.43137 0.500001C3.27023 0.500001 3.13971 0.630668 3.13971 0.791669Z"
+                    fill="#12B76A"
+                    stroke="#12B76A"
+                    stroke-width="0.6048"
+                  /></svg
+                ><b>+0.47</b>
+              </span>
+            </div>
+            <!-- .trm-dashboard__count-area end -->
+
+            <div class="trm-dashboard__link-area">
+              <a href="#" class="trm-dashboard__link"
+                >Add Contact
+                <svg
+                  width="11"
+                  height="11"
+                  viewBox="0 0 11 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.24941 10.4553C5.34811 10.4559 5.44596 10.437 5.53734 10.3997C5.62871 10.3623 5.71183 10.3074 5.78191 10.2378L10.2819 5.73784C10.4216 5.59732 10.5 5.40723 10.5 5.20909C10.5 5.01095 10.4216 4.82087 10.2819 4.68034L5.78191 0.180343C5.63843 0.057473 5.45387 -0.00673153 5.26512 0.000559336C5.07636 0.0078502 4.8973 0.0860992 4.76373 0.21967C4.63016 0.353241 4.55191 0.532296 4.54462 0.721053C4.53733 0.90981 4.60154 1.09437 4.72441 1.23784L8.69191 5.20534L4.72441 9.17284C4.61909 9.2773 4.54711 9.41063 4.51757 9.55599C4.48803 9.70135 4.50226 9.85221 4.55845 9.98948C4.61465 10.1268 4.71029 10.2443 4.83327 10.3272C4.95626 10.4101 5.10108 10.4547 5.24941 10.4553Z"
+                    fill="#A7A8B3"
+                  />
+                  <path
+                    d="M0.749406 10.4553C0.848111 10.4559 0.945958 10.437 1.03734 10.3997C1.12871 10.3623 1.21183 10.3074 1.28191 10.2378L5.78191 5.73784C5.92159 5.59732 6 5.40723 6 5.20909C6 5.01095 5.92159 4.82086 5.78191 4.68034L1.28191 0.180343C1.13843 0.057473 0.953873 -0.00673153 0.765116 0.000559336C0.576359 0.0078502 0.397304 0.0860992 0.263733 0.21967C0.130162 0.353241 0.0519133 0.532296 0.0446224 0.721053C0.0373316 0.90981 0.101536 1.09437 0.224405 1.23784L4.19191 5.20534L0.224405 9.17284C0.119089 9.2773 0.0471103 9.41063 0.0175714 9.55599C-0.0119674 9.70135 0.00226032 9.85221 0.0584545 9.98948C0.114649 10.1268 0.210286 10.2443 0.333274 10.3272C0.456262 10.4101 0.601076 10.4547 0.749406 10.4553Z"
+                    fill="#A7A8B3"
+                  />
+                </svg>
+              </a>
+            </div>
+            <!-- .trm-dashboard__link-area end -->
+          </article>
+          <!-- .trm-dashboard__card end -->
+        </div>
+      </section>
+
+      <div class="trm-dashboard trm-dashboard__border"></div>
+      <!-- .trm-dashboard__border end -->
+
+      <section class="trm-dashboard__campaign-area">
+        <div class="trm-dashboard__revenue-area">
+          <div class="trm-dashboard__header">
+            <div class="trm-dashboard__total">
+              <p>Total Revenue</p>
+              <h2>$45,68k</h2>
+            </div>
+
+            <div class="trm-dashboard__campaign">
+              <p>Total Revenue</p>
+              <h2>$45,68k</h2>
+            </div>
+
+            <div class="trm-dashboard__email">
+              <p>Total Revenue</p>
+              <h2>$45,68k</h2>
+            </div>
+          </div>
+        </div>
+        <!-- .trm-dashboard__revenue-area end -->
+
+        <div class="trm-dashboard__email-campaigns">
+          <h4>Email Campaigns</h4>
+
+          <select
+            class="trm-dashboard__select custom-select sources"
+            placeholder="Month"
+          >
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+        </div>
+      </section>
+      <!-- .trm-dashboard__campaign-area end -->
+
+      <section class="trm-dashboard__automation-area">
+        <div class="trm-dashboard__contact">
+          <div class="trm-dashboard__contact-header">
+            <h4>Contact</h4>
+            <option value="">Month</option>
+            <select
+              class="trm-dashboard__select custom-select sources"
+              placeholder="Month"
+            >
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="Jun">Jun</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+          </div>
+          <canvas id="oilChart" width="210vw" height="210vh"></canvas>
+        </div>
+
+        <div class="trm-dashboard__automation">
+          <h4>Top Automation</h4>
+          <select
+            class="trm-dashboard__select custom-select sources"
+            placeholder="Month"
+          >
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+        </div>
+      </section>
+      <!-- .trm-dashboard__automation-area end -->
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+@use "../util/" as u;
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+figure {
+  margin: 0;
+}
+.trm-dashboard__automation-area,
+.trm-dashboard__campaign-area,
+.trm-dashboard {
+  width: 100%;
+  max-width: 1290px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: u.$font-Inter;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

@@ -1,0 +1,32 @@
+// @use "../util/" as u;
+// .wbr-service {
+//   position: relative;
+//   background-color: #f2f2f2;
+//   padding: 90px 0 105px;
+
+//   &__heading-text {
+//     max-width: 990px;
+//     margin: 0 auto;
+//     text-align: center;
+//     padding-bottom: 60px;
+//   }
+
+//   &__cards-wrapper {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     gap: 50px;
+//   }
+
+//   &__heading {
+//     padding: 30px 0 15px;
+//   }
+
+//   &__description {
+//     font-family: u.$font-manrope;
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 18px;
+//     line-height: 28px;
+//     color: var(--text-color);
+//   }
+// }

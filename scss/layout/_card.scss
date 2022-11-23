@@ -1,0 +1,64 @@
+@use "../util/" as u;
+
+.trm-dashboard {
+  &__card-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: clamp(10px, 6vw, 20px);
+    @include u.breakpoint-down(medium) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include u.breakpoint-down(small) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  &__card {
+    background: #ffffff;
+    box-shadow: 0px 1px 1px rgba(182, 185, 191, 0.3);
+    border-radius: 10px;
+    padding: 24px 25px 17px;
+    padding-top: clamp(17px, 5vw, 24px);
+    padding-left: clamp(18px, 5vw, 25px);
+    padding-right: clamp(18px, 5vw, 25px);
+    padding-bottom: clamp(14px, 5vw, 17px);
+  }
+
+  &__count-area,
+  &__heading-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__count-area {
+    margin-top: clamp(8px, 9vw, 10px);
+    margin-bottom: clamp(10px, 6vw, 18px);
+    align-items: flex-end;
+  }
+
+  &__link-area {
+    border-top: 1px solid #e4e6eb;
+    padding-top: clamp(10px, 5vw, 15px);
+    margin: 0 -25px;
+    padding-left: clamp(18px, 5vw, 25px);
+  }
+
+  &__link {
+    &:hover {
+      color: var(--link-color);
+    }
+
+    svg {
+      margin-left: 10px;
+    }
+  }
+
+  &__border {
+    max-width: 1260px;
+    margin-top: clamp(20px, 5vw, 30px);
+    border-top: 1px solid #e4e6eb;
+    margin-bottom: clamp(20px, 5vw, 30px);
+  }
+}

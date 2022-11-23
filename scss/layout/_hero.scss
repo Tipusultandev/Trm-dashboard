@@ -1,0 +1,57 @@
+// @use "../util/" as u;
+// .wbr-hero {
+//   background-image: url(../images/hero.png);
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-color: #eca61f;
+//   padding: 170px 0px 224px;
+
+//   &__content-area {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-rows: auto;
+//     gap: 338px;
+//     align-items: center;
+//   }
+
+//   &__time-area {
+//     display: flex;
+//     gap: 30px;
+//     align-items: center;
+//     padding-top: 35px;
+
+//     div {
+//       display: flex;
+//       flex-direction: column;
+//       gap: 5px;
+//       border-radius: 10px;
+//       font-family: u.$font-jura;
+//       font-style: normal;
+//       font-weight: 700;
+//       font-size: 22px;
+//       line-height: 34px;
+//       text-align: center;
+//       text-transform: uppercase;
+//       color: #ffffff;
+//     }
+
+//     time {
+//       font-size: 50px;
+//       line-height: 34px;
+//       background-color: #9a6593;
+//       box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+//       border-radius: 10px;
+//       padding: 26px 14px;
+//     }
+//   }
+
+//   &__description-text {
+//     font-family: u.$font-manrope;
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 24px;
+//     line-height: 34px;
+//     color: #ffffff;
+//     padding-top: 40px;
+//   }
+// }
